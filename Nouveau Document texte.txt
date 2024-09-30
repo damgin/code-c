@@ -1,0 +1,28 @@
+Naviguer dans le BIOS/UEFI :
+
+Une fois dans le BIOS/UEFI, utilisez les touches fléchées pour naviguer dans les menus. Vous devrez trouver la section relative aux paramètres de la CPU ou de la performance. Les options varient selon le modèle, mais elles se trouvent généralement sous les onglets suivants :
+"M.I.T." (Motherboard Intelligent Tweaker)
+"Advanced"
+"CPU Configuration"
+"Overclocking" (parfois, les paramètres de virtualisation sont sous cette rubrique)
+Activer la Virtualisation :
+
+Recherchez une option nommée "Intel Virtualization Technology", "VT-x", "SVM Mode" (pour AMD), ou quelque chose de similaire.
+Changez la valeur de cette option à "Enabled".
+Sauvegarder et Quitter :
+
+Une fois que vous avez activé la virtualisation, sauvegardez vos modifications. Ceci est généralement fait en appuyant sur F10 ou en sélectionnant l'option "Save & Exit" dans le menu.
+Confirmez les modifications si demandé, et le système redémarrera.
+Vérification :
+
+Une fois que votre système a redémarré, vous pouvez vérifier si la virtualisation est activée en utilisant un outil comme Intel Processor Identification Utility pour les processeurs Intel, ou en vérifiant les paramètres de votre hyperviseur (comme VirtualBox, VMware, etc.).
+Remarques supplémentaires :
+Documentation : Consultez le manuel de votre carte mère pour les instructions spécifiques, car les menus et les options peuvent varier.
+Mise à jour du BIOS : Assurez-vous que votre BIOS/UEFI est à jour. Parfois, des fonctionnalités supplémentaires ou des améliorations peuvent être disponibles dans les versions récentes du BIOS.
+Si vous avez des questions spécifiques ou si vous rencontrez des difficultés, n'hésitez pas à demander plus de détails !
+
+
+
+
+
+ChatGPT peut faire des erreurs. Envisagez de vérifier le

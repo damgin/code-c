@@ -1,0 +1,13 @@
+int a = 5, b = 2;
+a = a + b;
+b = b * a;
+
+il y a 6 instructions;
+
+int x = 1;
+x += 2;
+if (x > 1) {
+    x = 0;
+}
+
+il y a 4 instructions
